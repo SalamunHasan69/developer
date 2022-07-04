@@ -11,7 +11,7 @@ body {
   color: deepskyblue;
 }
 
-section {
+.flexible {
   display: flex;
   margin-bottom: 50px;
 }
@@ -48,4 +48,31 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experiences {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.full-stack {
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#full-strack-developer {
+  border-left: 7px solid rgb(132, 46, 212);
+}
+
+#baby-developer {
+  border-left: 7px solid rgb(88, 146, 168);
+}
+
+footer p {
+  text-align: center;
 }
